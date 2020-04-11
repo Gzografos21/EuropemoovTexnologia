@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TexnologiaProject.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Europemoov</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+</head>
+
+<body style="background-color: #1D1D1D; background-repeat: no-repeat; background-size: auto; width:100%">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div style="height: 50px; "class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+   <%--                 <a class="navbar-brand" runat="server" href="~/">Application name</a>--%>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" style="text-align: right; margin-top: -34px;">
+                        <li><a href="About.aspx">
+                            <img class="displayed1" src="Images/logo1.png" style="height: 100px; width: auto; margin-top: 0px;" alt="" />
+                        </a>
+                        </li>
+                        <li style="height: 80px; width: auto; margin-top: 29px;" alt="" ><a runat="server" href="~/">Book a Trip</a></li>
+                        <li style="height: 80px; width: auto; margin-top: 29px;" alt="" ><a runat="server" href="~/About">Plan a trip</a></li>
+                        <li style="height: 80px; width: auto; margin-top: 29px;" alt="" ><a runat="server" href="~/Contact">Top 10 Trips</a></li>
+                        <li style="height: 80px; width: auto; margin-top: 29px;" alt="" ><a runat="server" href="~/Contact">Filoxenia</a></li>
+                        <li style="height: 80px; width: auto; margin-top: 29px;" alt="" ><a runat="server" href="~/Contact">Invite a Friend</a></li>
+                    </ul>
+                    <ul style="text-align: right ; margin-top: 8px">
+                        <li>
+                            <asp:Button ID="BtnLogOut" runat="server"  Text="Logout" class="btn btn-warning" OnClick="BtnLogOut_Click" />
+                        </li>
+                    </ul>
+                    <ul style="text-align: left; margin-top: 0px">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content" style="width:100%">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <%-- <hr style="border: 1px solid black;"/>--%>
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Europemoov</p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
