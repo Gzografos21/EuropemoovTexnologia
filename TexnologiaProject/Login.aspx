@@ -7,10 +7,11 @@
             <div class="col-md-6" style="text-align: center">
                 <div class="row" style="margin-top: 70px;">
                     <!--styling gia apostasi -->
-                    <h3 style="font-family:Times New Roman; color:#6b6a6a; width:170px; height: 30px;" >Login2</h3>
-                    <asp:Label ID="Label1" runat="server" Text="Username" style="color:#575656;"></asp:Label><br />
+                    <h1 style="font-family:Times New Roman; color: white; width:170px; height: 30px;" >Login!</h1>
+                    <br/> 
+                    <asp:Label ID="Label1" style="color: White;" runat="server" Text="Username" ></asp:Label><br />
                     <asp:TextBox ID="txtUsernameLI" runat="server" style="width: 170px; height: 30px;"></asp:TextBox><br />
-                    <asp:Label ID="Label2" runat="server" Text="Password" style="color:#575656;"></asp:Label><br />
+                    <asp:Label ID="Label2" style="color: White;" runat="server" Text="Password" ></asp:Label><br />
                     <asp:TextBox ID="txtPasswordLI" TextMode="Password" runat="server" style="width: 170px; height: 30px;"></asp:TextBox><br />
                     <asp:Label ID="LblError" runat="server" Text="" Style="color: red"></asp:Label><br />
                     <asp:Button ID="BtnLogin" runat="server" Text="Login" class="btn btn-dark" OnClick="BtnLogin_Click" style="width: 170px; height: 35px;" /><!--me to pou patisei click kalei ti methodo BtnLogin_Clickston server-->
