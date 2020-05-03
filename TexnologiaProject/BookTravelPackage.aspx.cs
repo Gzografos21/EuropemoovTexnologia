@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace TexnologiaProject
 {
-    public partial class Profile : System.Web.UI.Page
+    public partial class BookTravelPackage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

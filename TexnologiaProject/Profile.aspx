@@ -11,17 +11,24 @@
     <div class="row" style="margin-top:70px;">
         <div class="col-md-5"></div>
         <div class="col-md-1">
-            <img src="Images/back.JPG" style="width: 150px; height: auto;" />
+            <img src="Images/profile.JPG" style="width: 150px; height: auto;" />
+            <br/>
+            <h5 style="color: white;" >Giorgos Dimou</h5>
+            <br/>
+                <asp:Button ID="BtnSignup1q3rq3" runat="server" Text="Edit my Profile" class="btn btn-info" />
         </div>
-        <div class="col-md-1" style="color: white;">Giorgos2</div>
+        <div class="col-md-1" style="color: white;">Greece, Athens Places Visited: 5 </div>
+
+
     </div>
     <br /><br />
+      <h2 >Upload a picture or just pin your place on map</h2>
     <div class="col-md-5"></div>
-    <div id="mapid" style="width: 100%; height: 300px;"></div>
+    <div id="mapid" style="width: 100%; height: 550px;"></div>
 
     <script>
 
-        var mymap = L.map('mapid').setView([38.2870449, 21.7845011], 13);
+        var mymap = L.map('mapid').setView([38.2870449, 21.7845011], 3);
 
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
             maxZoom: 18,

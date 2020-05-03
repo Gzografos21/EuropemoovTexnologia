@@ -1,13 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Invite.aspx.cs" Inherits="TexnologiaProject.Invite" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <style>
-        body {
-            background-color: red
-        }
-    </style>
+
     <div class="container" style="width: 100%; height: 100%;">
-        <div class="row" style="background-image: url(Images/back.JPG); background-repeat: no-repeat; background-size: auto;">
+        <div class="row" style="background-image: url(Images/back4.jpg); background-repeat: no-repeat; background-size: auto;">
             <div class="col-md-4"></div>
             <div class="col-md-4" style="text-align: center;">
                 <br /><br /><br />

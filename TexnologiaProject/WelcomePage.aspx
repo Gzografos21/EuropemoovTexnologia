@@ -1,33 +1,34 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WelcomePage.aspx.cs" Inherits="TexnologiaProject.WelcomePage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container" style="width: 100px; height: 300px;">
-        <div class="row">
-            <div class="col-md-6" style="text-align: center">
-                <div class="row" style="margin-top: 70px;">
-                    <!--styling gia apostasi -->
-                    <h2 style="font-family: Times New Roman; color: #6b6a6a; width: 170px; height: 30px;">Welcome to Europemoov</h2>
-                    <br />
-                    <br />
-                    <h5 style="font-family: Times New Roman; color: #6b6a6a; width: 170px; height: 30px;">Lets start your adventure</h5>
+ <div class="container" style="width: 100%; height: 100%;">
+     
 
-                </div>
-                <div style="width: 200px;">
-                    <div style="float: right; width: 130px">
-                        <button type="submit" class="msgBtn2" style="background-color: #707070;" onclick="return false;">Login</button>
-                    </div>
-                    <div style="left: 0px; ">
-                        <div style="left: 0px; float: left; margin-top: -26px; width: 120px; height: 12px">
-                            <button class="msgBtnBack" style="background-color: #707070;" >Signup</button>
-                        </div>
+        <div class="row" background-repeat: no-repeat; ; background-size: cover; height: 100%;">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" style="text-align: center;">
+                <br />  <br />  <br /> <br />  
+
+                <link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+               <h1 style="font-family: Times New Roman; color: White;">Welcome to Europemoove!</h1>
+                    <br /><br />
+                    <asp:Label ID="Label1234" runat="server" Style="color: white;" Text="Lets start your adventure!"></asp:Label><br />
+
+                    <br />
+                <link href="Content/all.min.css" rel="stylesheet" />
+              
+                 <br />
+                   <button class="btn btn-primary" id="msgBtnBack1">Login</button>
+                    <button class="btn btn-primary" id="msgBtnBack2">Signup</button>
+                  
                     </div>
                 </div>
 
             </div>
             
 
-        </div>
-    </div>
+
 
     <br />
 
