@@ -13,22 +13,40 @@ namespace TexnologiaProject {
     public partial class Filoxenia {
         
         /// <summary>
-        /// Label1425 control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1425;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// txtUsernameSU124524 control.
+        /// txtCountry control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsernameSU124524;
+        protected global::System.Web.UI.WebControls.TextBox txtCountry;
+        
+        /// <summary>
+        /// Label5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// txtCity control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCity;
         
         /// <summary>
         /// Label612451245 control.
@@ -40,13 +58,13 @@ namespace TexnologiaProject {
         protected global::System.Web.UI.WebControls.Label Label612451245;
         
         /// <summary>
-        /// txtEmailSU51245124 control.
+        /// txtPersons control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmailSU51245124;
+        protected global::System.Web.UI.WebControls.TextBox txtPersons;
         
         /// <summary>
         /// Label512451245 control.
@@ -58,40 +76,40 @@ namespace TexnologiaProject {
         protected global::System.Web.UI.WebControls.Label Label512451245;
         
         /// <summary>
-        /// txtPasswordSU12451245 control.
+        /// txtSquare control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPasswordSU12451245;
+        protected global::System.Web.UI.WebControls.TextBox txtSquare;
         
         /// <summary>
-        /// TextBox1131 control.
+        /// txtStartingDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1131;
+        protected global::System.Web.UI.WebControls.TextBox txtStartingDate;
         
         /// <summary>
-        /// txtBirth12451245 control.
+        /// txtEndingDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBirth12451245;
+        protected global::System.Web.UI.WebControls.TextBox txtEndingDate;
         
         /// <summary>
-        /// BtnSignup112451245 control.
+        /// txtInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSignup112451245;
+        protected global::System.Web.UI.WebControls.TextBox txtInfo;
         
         /// <summary>
         /// Button113441 control.
@@ -101,5 +119,32 @@ namespace TexnologiaProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button113441;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
     }
 }
